@@ -1,0 +1,24 @@
+{
+  "name": "azureblobstorage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/storage-blob": "^12.27.0",
+    "cloudinary": "^2.6.1",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mime": "^4.0.7",
+    "multer": "^1.4.5-lts.2",
+    "nodemon": "^3.1.10",
+    "sanitize-filename": "^1.6.3"
+  }
+}
